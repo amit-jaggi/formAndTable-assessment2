@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="icon" href="./images/b logo.png">
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="./success.html">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="name" required> <br> <br>
+
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" placeholder="email" required> <br>  <br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password" required> <br> <br>
+
+        Language  <br>  <br>
+        <input type="radio" name="language" id="react" value="react"><label for="">React</label>  <br>
+        <input type="radio" name="language" id="angular" value="angular"><label for="">Angular</label> <br>
+        <input type="radio" name="language" id="vue" value="vue"><label for="">Vue</label>
+
+        <br> <br>
+        Course <br> <br>
+        <input type="checkbox" name="course1" id="mern" value="mern" required><label for="">MERN</label> <br>
+        <input type="checkbox" name="course2" id="mean" value="mean"><label for="">MEAN</label> <br>
+        <input type="checkbox" name="course3" id="mevn" value="mevn"><label for="">MEVN</label> <br>
+
+        <br> <br>
+
+        Field: <br>
+        <select name="field" id="field">
+            <option value="none"></option>
+            <option value="full-stack">Full-Stack</option>
+            <option value="front-end">Front-End</option>
+            <option value="back-end">Back-End</option>
+        </select>
+
+        <br> <br>
+        <textarea name="text-area" id="" cols="30" rows="10"></textarea>
+
+        <br> <br>
+        <label for="">Phone Number</label>
+        <input type="number" name="phone" id="number" required>
+
+        <input type="submit" value="Submit">
+
+        <h1>TABLES</h1>
+        <a href="./table.html">Click Me</a>
+    </form>
+</body>
+</html>
